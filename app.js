@@ -254,4 +254,6 @@ function dinnerChange() {
     if (descOne) {
         descOne.innerHTML = '<p>on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut</p>';
     }
+    console.log("hi");
 }
+
