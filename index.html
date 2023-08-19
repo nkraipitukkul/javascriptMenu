@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascipt 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Our Menu</h1>
+        <div class="button">
+            <button id="all" onclick="allChange()">All</button>
+            <button id="breakfast" onclick="breakfastChange()">Breakfast</button>
+            <button id="lunch" onclick="lunchChange()">Lunch</button>
+            <button id="shake" onclick="shakeChange()">Shake</button>
+            <button id="dinner" onclick="dinnerChange()">Dinner</button>
+        </div>
+    </div>
+    <div class="main">
+        <div class="firstRow" id="first">
+            <div class="firstBox">
+                <div class="box1" id="firstElement">
+                    <div class="img1" id="firstImg">
+                        <img src="1.jpg">
+                    </div>
+                    <div class="menuName1">
+                        <div class="price1" id="name1">
+                            <p>Buttermilk Pancake  <span class="styled-span">$15.99</span></p>
+                        </div>
+                        <div class="desc1" id="descOne">
+                            <p>
+                                I'm baby woke mlkshk wolf bitters live-edge blue bottle, 
+                                hammock freegan copper mug whatever cold-pressed
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="secondBox">
+                <div class="box2" id="secondElement">
+                    <div class="img2" id="secondImg">
+                        <img src="2.jpg">
+                    </div>
+                    <div class="menuName2">
+                        <div class="price2" id="name2">
+                            <p>Diner Double  <span class="styled-span">$13.99</span></p>
+                        </div>
+                        <div class="desc2" id="descTwo">
+                            <p>
+                                vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang 
+                                helvetica man braid jianbing. Marfa thundercats
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="secondRow" id="second">
+            <div class="thirdBox">
+                <div class="box3" id="thirdElement">
+                    <div class="img3" id="thirdImg">
+                        <img src="3.jpg">
+                    </div>
+                    <div class="menuName3">
+                        <div class="price3" id="name3">
+                            <p>Godzilla Milkshake   <span class="styled-span">$6.99</span></p>
+                        </div>
+                        <div class="desc3" id="descThree">
+                            <p>
+                                ombucha chillwave fanny pack 3 wolf moon street art 
+                                photo booth before they sold out organic viral.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fourthBox">
+                <div class="box4" id="fourthElement">
+                    <div class="img4" id="fourthImg">
+                        <img src="4.jpg">
+                    </div>
+                    <div class="menuName4">
+                        <div class="price4" id="name4">
+                            <p>Country Delight  <span class="styled-span">$20.99</span></p>
+                        </div>
+                        <div class="desc4" id="descFour">
+                            <p>
+                                Shabby chic keffiyeh neutra snackwave pork belly shoreditch. 
+                                Prism austin mlkshk truffaut,
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="thirdRow" id="third">
+            <div class="fifthBox">
+                <div class="box5" id="fifthElement">
+                    <div class="img5" id="fifthImg">
+                        <img src="5.jpg">
+                    </div>
+                    <div class="menuName5">
+                        <div class="price5" id="name5">
+                            <p>Egg Attack  <span class="styled-span">$22.99</span></p>
+                        </div>
+                        <div class="desc5" id="descFive">
+                            <p>
+                                franzen vegan pabst bicycle rights 
+                                kickstarter pinterest meditation farm-to-table 90's pop-up
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sixthBox">
+                <div class="box6" id="sixthElemenr">
+                    <div class="img6">
+                        <img src="6.jpg" id="sixthImg">
+                    </div>
+                    <div class="menuName6">
+                        <div class="price6" id="name6">
+                            <p>Oreo Dream  <span class="styled-span">$0.99</span></p>
+                        </div>
+                        <div class="desc6" id="descSix">
+                            <p>
+                                Portland chicharrones ethical edison bulb,
+                                 palo santo craft beer chia heirloom iPhone everyday
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fourthRow" id="fourth">
+            <div class="seventhBox">
+                <div class="box7" id="seventhElement">
+                    <div class="img7" id="seventhImg">
+                        <img src="7.jpg">
+                    </div>
+                    <div class="menuName7">
+                        <div class="price7" id="name7">
+                            <p>Bacon Overflow  <span class="styled-span">$8.99</span></p>
+                        </div>
+                        <div class="desc7" id="descSeven">
+                            <p>
+                                carry jianbing normcore freegan. Viral single-origin coffee 
+                                live-edge, pork belly cloud bread iceland put a bird
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="eigthBox">
+                <div class="box8" id="eigthElement">
+                    <div class="img8" id="eigthImg">
+                        <img src="8.jpg">
+                    </div>
+                    <div class="menuName8">
+                        <div class="price8" id="name8">
+                            <p>American Classic  <span class="styled-span">$12.99</span></p>
+                        </div>
+                        <div class="desc8" id="descEight">
+                            <p>
+                                on it tumblr kickstarter thundercats migas everyday 
+                                carry squid palo santo leggings. Food truck truffaut
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
